@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5 - Formularios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section>
+        <!-- <form action="http://localhost:8000/">
+            <h1>Formularios</h1>
+
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
+            <input name="apellido"type="text" placeholder="Tu apellido">
+            <input name="edad" type="number" placeholder="Tu edad" min="1" max="99">
+            <input name="email" type="email" placeholder="Tu email">
+            <label for="">Elegí tu Plan</label>
+            <select name="plan">
+                <option value="plan-1">50 MB</option>
+                <option value="plan-2">100 GB</option>
+                <option value="plan-3">1000 GB</option>
+                <option value="plan-4">100 TB</option>
+            </select>
+            <label for="">Tu Consulta</label>
+            <button type="submit">Enviar</button>
+        </form>
+        <textarea name="consulta"></textarea>
+    </section> -->
+        <!-- <section>
+        <form action="http://localhost:8000/" method="POST">
+            <h1>Paga no hay problema</h1>
+            <input name="nombre" type="text" placeholder="Tu nombre como figura en la tarjeta">
+            <input name="tarjeta"type="number" placeholder="Numero en la tareta">
+            <input name="vencimiento_mes" type="number" placeholder="Mes Vencimiento">
+            <input name="vencimiento_anio" type="number" placeholder="Año Vencimiento">
+            <input name="codigo" type="password" placeholder="Código de Seguridad">
+            <button type="submit">Enviar</button>
+        </form>
+    </section> -->
+        <!-- <section>
+        <form action="http://localhost:8000" method="POST">
+            <h1>Login</h1>
+            <label for="password">Email</label>
+            <input id="email" required type="email" maxlength="5">
+            <label for="password">Password</label>
+            <input id="password" name="email" required type="password">
+            <button type="submit">Enviar</button>
+        </form>
+    </section> -->
+        <section>
+            <form action="http://localhost:8000/" method="POST" enctype="multipart/form-data">
+                <label for="">Fecha</label>
+                <input name="fecha" type="date" min="2022-01-01">
+                <label for="">Fecha y Hora</label>
+                <input name="time" type="time">
+                <label for="">Selecciona tu Provincia</label>
+                <select name="" id="">
+                    <optgroup label="Centro">
+                        <option>Buenos Aires</option>
+                        <option>Mendoza</option>
+                    </optgroup>
+                    <optgroup label="Litoral">
+                        <option>Misiones</option>
+                        <option>Entre Ríos</option>
+                        <option>Corrientes</option>
+                    </optgroup>
+                    <option>Catamarca</option>
+                    <option>Chaco</option>
+                    <option>Chubut</option>
+                    <option>Córdoba</option>
+                    <option>Formosa</option>
+                    <option>Jujuy</option>
+                    <option>La Pampa</option>
+                    <option>La Rioja</option>
+                    <option>Neuquén</option>
+                    <option>Río Negro</option>
+                    <option>Salta</option>
+                    <option>San Juan</option>
+                    <option>San Luis</option>
+                    <option>Santa Cruz</option>
+                    <option>Santa Fe</option>
+                    <option>Santiago del Estero</option>
+                    <option>Tierra del Fuego</option>
+                    <option>Tucumán</option>
+                </select>
+                <label>
+                    <input type="checkbox">
+                    ¿Desea aceptar los terminos y condiciones?
+                </label>
+                <hr>
+                <label for="">Edad</label>
+                <input type="number">
+                <span>Tu edad. Formato XX</span>
+                <hr>
+                <label max="" for="">Adjuntar un Archivo</label>
+                <input name="imagen" type="file">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+</body>
+
+</html>
