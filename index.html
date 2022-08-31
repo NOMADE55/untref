@@ -8,8 +8,57 @@
     <link rel="stylesheet" href="css/mvp.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <h1>Multimedia</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Audio</h2>
+                <audio controls>
+                    <source src="audio/bricks.mp3" type="audio/mpeg"/>
+                </audio>
+
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Video</h2>
+                <video width="300" controls loop poster="videos/trippy.jpg">
+                    <source src="videos/trippy.webm" type="video/webm">
+                    <source src="videos/trippy.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Imagen</h2>
+                <picture>
+                    <source srcset="images/kitten-1920.jpeg" media="(min-width: 1200px)" >
+                    <source srcset="images/kitten-800.jpeg" media="(min-width: 800px)" >
+                    <source srcset="images/kitten-600.jpeg" media="(min-width: 600px)" >
+                    <img src="images/kitten-200.jpeg" alt="">
+                </picture>
+            </div>
+            <section>
+                <div>
+                    <h2>Progreso</h2>
+                    <div>
+                        <h3>Indeterminado</h3>
+                        <progress></progress>
+                    </div>
+                    <div>
+                        <h3>Con Progreso Visible</h3>
+                        <progress min="0" max="100" value="50"></progress>
+                    </div>
+                    <div>
+                        <h3>Segmentado</h3>
+                        <meter min="0" max="100" value="50" low="20" optimum="40" high="70"></meter>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
