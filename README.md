@@ -9,6 +9,9 @@ Acá están las clases
 - [05](https://github.com/nomade55/untref/tree/clase/5)
 - [06](https://github.com/nomade55/untref/tree/clase/6)
 - [07](https://github.com/nomade55/untref/tree/clase/7)
+- [09](https://github.com/nomade55/untref/tree/clase/9)
+- [11, 12 & 13](https://github.com/nomade55/untref/tree/clase/11-12-13)
+- [14](https://github.com/nomade55/untref/tree/clase/14)
 
 ---
 &copy; Lucas Terracino
