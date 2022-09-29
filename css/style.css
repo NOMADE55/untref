@@ -1,0 +1,93 @@
+:root {
+    font-size: 16px;
+}
+
+/* CARDS */
+.cards {
+    padding: 16px;
+    background-color: rgba(0,0,0,.12);
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    color: #555555;
+    max-width: 200px;
+    flex-grow: 1;
+    background-color: #fff;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    box-shadow: 0 2px 4px 6px rgba(0,0,0,.06);
+    border-radius: 8px;
+}
+
+.card .top {
+    margin-bottom: 12px;
+}
+
+.card .top img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,.12);
+}
+
+.card .bottom h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    line-height: 1.3;
+    margin-bottom: .25rem;
+    color: #000;
+}
+
+.card .bottom p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+}
+
+
+
+/* xs Pantallas < 576px. */
+@media (max-width: 576px) {
+    .card .bottom p {
+        color: red;
+    }
+}
+
+/* sm Pantallas ≦ 576px. */
+@media (min-width: 576px) and (max-width: 767px) {
+    .card .bottom p {
+        color: blue;
+    }
+
+}
+
+/* md Pantallas ≧ 768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .card .bottom p {
+        color: green;
+    }
+
+}
+
+
+/* lg Pantallas ≧ 992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card .bottom p {
+        color: greenyellow;
+    }
+
+}
+
+/* xl Pantallas ≧ 1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/*x xl Pantallas ≧ 1400px. */
+@media (min-width: 1400px) {
+
+}

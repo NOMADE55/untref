@@ -1,0 +1,65 @@
+.card {
+    background-color: #fff;
+    margin: 1rem;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 20% 15% 15% 1fr;
+    grid-template-rows: 30px 100px 30px;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.12);
+    box-shadow: 2px 3px 6px rgba(0,0,0,.12), 2px 4px 6px rgba(0,0,0,.08);
+    grid-template-areas:
+    "header header header image"
+    "heart  text   text   image"
+    "footer footer footer title";
+}
+
+
+.card header {
+    grid-area: header;
+    overflow: hidden;
+    text-align: right;
+}
+
+.card footer {
+    grid-area: footer;
+    overflow: hidden;
+    text-align: right;
+}
+
+.card .heart {
+    grid-area: heart;
+    overflow: hidden;
+}
+
+
+.card .heart button {
+    background-color: #fff;
+    height: 100%;
+    border: 0;
+    font-size: 1.4rem;
+}
+
+.card h2 {
+    grid-area: title;
+    margin: 0;
+    text-align: center;
+}
+
+.card .text {
+    grid-area: text;
+    margin: 0;
+}
+
+
+.card .image {
+    grid-area: image;
+    overflow: hidden;
+}
+
+.card .image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
