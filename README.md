@@ -12,6 +12,7 @@ Acá están las clases
 - [09](https://github.com/nomade55/untref/tree/clase/9)
 - [11, 12 & 13](https://github.com/nomade55/untref/tree/clase/11-12-13)
 - [14](https://github.com/nomade55/untref/tree/clase/14)
+- [20](https://github.com/nomade55/untref/tree/clase/20)
 
 ---
 &copy; Lucas Terracino

@@ -1,0 +1,28 @@
+$yellow: #ffc801;
+$primary: $yellow;
+$secondary: #000;
+$dark: $secondary;
+$light: #fff;
+$cyan: #dfecf4;
+$font-family-sans-serif: 'Roboto';
+$line-height-base: 1;
+
+$theme-colors: (
+    'primary': $primary,
+    'yellow': $yellow,
+    'secondary': $secondary,
+    'dark': $dark,
+    'light': $light,
+    'cyan': $cyan,
+);
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+);

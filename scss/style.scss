@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import 'variables';
+@import 'bootstrap/bootstrap.scss';
+
+.hero {
+    height: 100vh;
+    background-color: $primary;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.secondary-heading {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin-bottom: .2rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.icon-figure .img-wrapper {
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.coffee {
+    margin-top: -3rem;
+}
+
+.computer {
+    margin-top: 3rem;
+}
+
+#reviews {
+    article {
+        .img-wrapper {
+            position: relative;
+            img {
+                width: 300px;
+                z-index: 2;
+                position: relative;
+            }
+            span {
+                z-index: 1;
+                position: absolute;
+                width: 40%;
+                background-color: $yellow;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: -2rem auto;
+            }
+        }
+        .score {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 2rem;
+            max-width: 600px;
+        }
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 5rem;
+        height: 5rem;
+    }
+}
